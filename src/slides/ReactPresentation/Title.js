@@ -8,7 +8,9 @@ class Title extends Component {
   render() {
     return (
         <Slide>
-          <Text>Hello</Text>
+          <Heading size={1} fit caps lineHeight={1} textColor="black">
+            React
+          </Heading>
         </Slide>
     );
   }
