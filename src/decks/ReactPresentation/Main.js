@@ -15,8 +15,8 @@ class Main extends Component {
   render() {
     return (
         <Deck theme={theme} transition={['zoom', 'slide', 'fade']} transitionDuration={500}>
-            <Title />
-            <CDD />
+  {Title}
+            {CDD}
         </Deck>
     );
   }
