@@ -4,7 +4,7 @@ import {
   Heading, Image, Layout, ListItem, List, Quote, Slide, Text
 } from 'spectacle';
 
-import city from './../../res/img/ReactPresentation/city.jpeg';
+import city from './../../res/img/ReactPresentation/city.jpg';
         
 
 const CDD = (
