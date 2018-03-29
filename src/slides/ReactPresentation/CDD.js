@@ -8,20 +8,28 @@ import city from './../../res/img/ReactPresentation/city.jpeg';
         
 
 const CDD = (
-  <Slide bgDarken={0.75} bgImage={city}>
-    <Appear>
+  <Slide  transition={["fade"]} bgDarken={0.75} bgImage={city}>
       <Heading size={1} caps fit textColor="primary">
-      Text 1
+        Component Driven Development
+      </Heading>
+     <Appear>
+      <Heading caps textColor="tertiary">
+        Modular
       </Heading>
     </Appear>
     <Appear>
-      <Heading size={1} caps fit textColor="tertiary">
-        Text 2
+      <Heading caps textColor="tertiary">
+        Maintainable
       </Heading>
     </Appear>
     <Appear>
-      <Heading size={1} caps fit textColor="primary">
-        Text 3
+      <Heading caps textColor="tertiary">
+        Reusable
+      </Heading>
+    </Appear>
+    <Appear>
+      <Heading caps fit textColor="tertiary">
+        Focused Development
       </Heading>
     </Appear>
   </Slide>
