@@ -4,6 +4,8 @@ import { Deck } from 'spectacle';
 
 import Title from './../../slides/ReactPresentation/Title';
 import CDD from './../../slides/ReactPresentation/CDD';
+import Modular from '../../slides/ReactPresentation/Modular';
+import Maintainable from '../../slides/ReactPresentation/Maintainable';
 
 
 const theme = createTheme({
@@ -15,8 +17,10 @@ class Main extends Component {
   render() {
     return (
         <Deck theme={theme} transition={['zoom', 'slide', 'fade']} transitionDuration={500}>
-  {Title}
+            {Title}
             {CDD}
+            {Modular}
+            {Maintainable}
         </Deck>
     );
   }
