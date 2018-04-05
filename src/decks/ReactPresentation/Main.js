@@ -6,6 +6,7 @@ import Title from './../../slides/ReactPresentation/Title';
 import CDD from './../../slides/ReactPresentation/CDD';
 import Modular from '../../slides/ReactPresentation/Modular';
 import Maintainable from '../../slides/ReactPresentation/Maintainable';
+import FocusedDevelopment from '../../slides/ReactPresentation/FocusedDevelopment';
 
 
 const theme = createTheme({
@@ -21,6 +22,7 @@ class Main extends Component {
             {CDD}
             {Modular}
             {Maintainable}
+            {FocusedDevelopment}
         </Deck>
     );
   }
