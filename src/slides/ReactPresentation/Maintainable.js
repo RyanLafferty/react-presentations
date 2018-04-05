@@ -13,7 +13,7 @@ const Maintainable = (
     </Heading>
     <Appear>
       <BlockQuote>
-        <Quote textColor="tertiary">about 90% of the cost related to the software life is in the maintenance phase.</Quote>
+        <Quote textColor="tertiary">about 90% of the cost related to the software life is in the maintenance phase</Quote>
         <Cite>Nafiseh Hajrahimi</Cite>
       </BlockQuote>
     </Appear>
