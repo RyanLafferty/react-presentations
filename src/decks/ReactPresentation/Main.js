@@ -8,7 +8,7 @@ import Modular from '../../slides/ReactPresentation/Modular';
 import Maintainable from '../../slides/ReactPresentation/Maintainable';
 import FocusedDevelopment from '../../slides/ReactPresentation/FocusedDevelopment';
 import Reusable from '../../slides/ReactPresentation/Reusable';
-
+import Benefits from '../../slides/ReactPresentation/Benefits';
 
 const theme = createTheme({
   primary: '#27BDCE',
@@ -25,6 +25,7 @@ class Main extends Component {
             {Maintainable}
             {FocusedDevelopment}
             {Reusable}
+            {Benefits}
         </Deck>
     );
   }

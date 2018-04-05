@@ -4,8 +4,10 @@ import {
   Heading, Image, Layout, ListItem, List, Quote, Slide, Text
 } from 'spectacle';
 
+import mountain from './../../res/img/ReactPresentation/mountain.png';
+
 const Maintainable = (
-  <Slide transition={['zoom']}>
+  <Slide transition={['spin']} bgDarken={0.80} bgImage={mountain}>
     <Heading size={1} caps>
       Maintainable
     </Heading>

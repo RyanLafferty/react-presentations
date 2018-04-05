@@ -5,7 +5,7 @@ import {
 } from 'spectacle';
 
 const Modular = (
-  <Slide transition={['fade']}>
+  <Slide transition={['zoom']}>
     <Heading size={1} fit caps>
       Modular
     </Heading>

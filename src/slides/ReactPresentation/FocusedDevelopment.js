@@ -9,7 +9,7 @@ import focus from './../../res/img/ReactPresentation/focus.jpeg';
 const lineContent = '.';
 
 const FocusedDevelopment = (
-  <Slide  transition={["fade"]} bgDarken={0.25} bgImage={focus}>
+  <Slide  transition={["fade", "zoom"]} bgDarken={0.25} bgImage={focus}>
     <Heading caps fit textColor="tertiary" lineHeight={0}>
       Focused Development
     </Heading>

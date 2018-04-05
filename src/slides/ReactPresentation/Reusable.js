@@ -9,7 +9,7 @@ import modular from './../../res/img/ReactPresentation/modular.png';
 const lineContent = '.';
 
 const Reusable = (
-  <Slide  transition={["fade"]} bgDarken={0.85} bgImage={modular}>
+  <Slide  transition={["slide"]} bgDarken={0.85} bgImage={modular}>
     <Heading caps fit textColor="tertiary">
       Reusable
     </Heading>
