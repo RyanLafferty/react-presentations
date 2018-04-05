@@ -10,6 +10,7 @@ import FocusedDevelopment from '../../slides/ReactPresentation/FocusedDevelopmen
 import Reusable from '../../slides/ReactPresentation/Reusable';
 import Benefits from '../../slides/ReactPresentation/Benefits';
 import ComponentSlide from '../../slides/ReactPresentation/ComponentSlide';
+import WhatIsComponent from '../../slides/ReactPresentation/WhatIsComponent';
 
 const theme = createTheme({
   primary: '#27BDCE',
@@ -23,6 +24,7 @@ class Main extends Component {
             {Title}
             {CDD}
             {ComponentSlide}
+            {WhatIsComponent}
             {Modular}
             {Maintainable}
             {FocusedDevelopment}
