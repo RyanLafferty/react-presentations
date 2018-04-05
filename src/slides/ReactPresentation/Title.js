@@ -5,8 +5,8 @@ import {
 } from 'spectacle';
 
 const Title = (
-  <Slide transition={['slide']}>
-    <Heading size={1} fit caps lineHeight={1} textColor="black">
+  <Slide transition={['slide']} bgColor="black">
+    <Heading size={1} fit caps lineHeight={1} textColor="primary">
       React
     </Heading>
   </Slide>
