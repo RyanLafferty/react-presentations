@@ -18,7 +18,7 @@ const Reusable = (
         <ListItem textColor="primary">Shared Component Libraries</ListItem>
       </Appear>
       <Appear>
-        <ListItem textColor="primary">Consistency Across Services</ListItem>
+        <ListItem textColor="primary">Consistency Across Products & Services</ListItem>
       </Appear>
       <Appear>
         <ListItem textColor="primary">Adaptable UI/UX</ListItem>
