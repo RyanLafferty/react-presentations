@@ -6,10 +6,12 @@ import Title from './../../slides/ReactPresentation/Title';
 import CDD from './../../slides/ReactPresentation/CDD';
 import Modular from '../../slides/ReactPresentation/Modular';
 import Maintainable from '../../slides/ReactPresentation/Maintainable';
+import FocusedDevelopment from '../../slides/ReactPresentation/FocusedDevelopment';
+import Reusable from '../../slides/ReactPresentation/Reusable';
 
 
 const theme = createTheme({
-  primary: '#ff4081',
+  primary: '#27BDCE',
 });
 
 
@@ -21,6 +23,8 @@ class Main extends Component {
             {CDD}
             {Modular}
             {Maintainable}
+            {FocusedDevelopment}
+            {Reusable}
         </Deck>
     );
   }

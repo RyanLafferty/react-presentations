@@ -6,9 +6,15 @@ import {
 
 const Maintainable = (
   <Slide transition={['zoom']}>
-    <Heading size={1} fit caps>
+    <Heading size={1} caps>
       Maintainable
     </Heading>
+    <Appear>
+      <BlockQuote>
+        <Quote textColor="tertiary">about 90% of the cost related to the software life is in the maintenance phase.</Quote>
+        <Cite>Nafiseh Hajrahimi</Cite>
+      </BlockQuote>
+    </Appear>
   </Slide>
 );
 
