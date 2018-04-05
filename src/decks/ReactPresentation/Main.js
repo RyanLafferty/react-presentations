@@ -10,7 +10,7 @@ import FocusedDevelopment from '../../slides/ReactPresentation/FocusedDevelopmen
 
 
 const theme = createTheme({
-  primary: '#ff4081',
+  primary: '#27BDCE',
 });
 
 
