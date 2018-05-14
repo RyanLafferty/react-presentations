@@ -11,7 +11,7 @@ import AlternativeAnalysis from "../../slides/SoftwareEngineering/AlternativeAna
 
 
 const theme = createTheme({
-  primary: '#27BDCE',
+  primary: '#B2FF59',
 });
 
 
