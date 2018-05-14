@@ -13,7 +13,7 @@ const AlternativeAnalysis = (
       Alternative Analysis
     </Heading>
     <Text textColor="tertiary">
-      TODO
+      Consider a number of potential solutions in order to identify the best fit for the problem which you are faced with.
     </Text>
   </Slide>
 );
