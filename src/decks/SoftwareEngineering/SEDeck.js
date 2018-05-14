@@ -6,6 +6,7 @@ import Title from './../../slides/SoftwareEngineering/Title';
 import Concepts from "../../slides/SoftwareEngineering/Concepts";
 import Process from "../../slides/SoftwareEngineering/Process";
 import MarketAnalysis from "../../slides/SoftwareEngineering/MarketAnalysis";
+import ResourceManagement from "../../slides/SoftwareEngineering/ResourceManagement";
 
 
 const theme = createTheme({
@@ -21,6 +22,7 @@ class SEDeck extends Component {
         {Concepts}
         {Process}
         {MarketAnalysis}
+        {ResourceManagement}
       </Deck>
     );
   }
