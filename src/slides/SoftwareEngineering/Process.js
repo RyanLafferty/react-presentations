@@ -6,7 +6,7 @@ import {
 import benefits from './../../res/img/ReactPresentation/benefits.jpg';
 
 
-const Concepts = (
+const Process = (
   <Slide transition={["fade"]} bgDarken={0.25} bgImage={benefits}>
     <Heading caps fit textColor="primary">
       Problem Solving Process
@@ -36,4 +36,4 @@ const Concepts = (
   </Slide>
 );
 
-export default Concepts;
+export default Process;

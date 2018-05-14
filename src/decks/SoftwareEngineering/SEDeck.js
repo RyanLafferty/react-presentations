@@ -5,6 +5,8 @@ import { Deck } from 'spectacle';
 import Title from './../../slides/SoftwareEngineering/Title';
 import Concepts from "../../slides/SoftwareEngineering/Concepts";
 import Process from "../../slides/SoftwareEngineering/Process";
+import MarketAnalysis from "../../slides/SoftwareEngineering/MarketAnalysis";
+
 
 const theme = createTheme({
   primary: '#27BDCE',
@@ -18,6 +20,7 @@ class SEDeck extends Component {
         {Title}
         {Concepts}
         {Process}
+        {MarketAnalysis}
       </Deck>
     );
   }
